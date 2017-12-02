@@ -1,5 +1,5 @@
 .panel-heading {
-	background-color: #2B3E51;
+	color: #2B3E51;
 }
 
 .jumbotron {
@@ -13,3 +13,8 @@ h1 {
 	background-color: #20325A;
 	color: white;
 }
+
+select {
+	width: 50% ;
+}
+

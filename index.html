@@ -4,7 +4,7 @@
 	<title></title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
 <div class="container-fluid">
@@ -18,28 +18,38 @@
 		  <div class="panel-body">
 		  		<div><b>Search Item</b></div>
 				<div> 
-		    		<textarea rows="4" cols="50">
+		    		<textarea rows="4" cols="50" id="searchItemText">
 
 		    		</textarea>
 				 </div>
 					
 				<div><b>Number of Records to Retrieve</b></div>
 				 <div>
-		    		<textarea rows="4" cols="50">
-
-		    		</textarea>
+		    		 <select class="form-control" id="numRecords">
+                            <option value="1">1</option>
+                            <option value="2">1</option>
+                            <option value="3">1</option>
+                            <option value="4">1</option>
+                            <option value="5">1</option>
+                            <option value="6">1</option>
+                            <option value="7">5</option>
+                            <option value="8">1</option>
+                            <option value="9">1</option>
+                            <option value="10">1</option>
+                            <option value="11">10</option>
+                        </select>
 				 </div>
 
 				<div><b>Start Year(Optional)</b></div>
 				 <div>
-		    		<textarea rows="4" cols="50">
+		    		<textarea rows="4" cols="50" id="startYearText">
 
 		    		</textarea>
 				 </div>
 					
 				<div><b>End Year(Optional)</b></div>
 				 <div>
-		    		<textarea rows="4" cols="50">
+		    		<textarea rows="4" cols="50" id="endYearText">
 
 		    		</textarea>
 				 </div>
